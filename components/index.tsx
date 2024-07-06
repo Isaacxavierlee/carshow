@@ -1,12 +1,11 @@
-import React from 'react'
-import Hero from './Hero'
+import CustomButton from "./CustomButton";
+import Footer from "./Footer";
+import NavBar from "./Navbar";
+import Hero from "./Hero";
 
-const index = () => {
-  return (
-    <div>
-      
-    </div>
-  )
+export {
+  Hero,
+  CustomButton,
+  NavBar,
+  Footer,
 }
-
-export default index
